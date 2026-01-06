@@ -1,0 +1,77 @@
+{
+  "training_dataset": "reddit",
+  "testing_dataset": "4chan",
+  "n_folds": 5,
+  "f1_mean": 0.7668675152008484,
+  "f1_std": 0.03332058128696401,
+  "accuracy_mean": 0.897,
+  "accuracy_std": 0.01691153452528778,
+  "precision_mean": 0.7056680558402222,
+  "precision_std": 0.05249216161067164,
+  "recall_mean": 0.8450000000000001,
+  "recall_std": 0.05567764362830019,
+  "roc_auc_mean": 0.9185312499999998,
+  "roc_auc_std": 0.02423368491119336,
+  "fold_metrics": [
+    {
+      "fold": 1,
+      "accuracy": 0.915,
+      "precision": 0.7804878048780488,
+      "recall": 0.8,
+      "f1_score": 0.7901234567901235,
+      "roc_auc": 0.9117187499999999,
+      "true_positives": 32,
+      "true_negatives": 151,
+      "false_positives": 9,
+      "false_negatives": 8
+    },
+    {
+      "fold": 2,
+      "accuracy": 0.875,
+      "precision": 0.6470588235294118,
+      "recall": 0.825,
+      "f1_score": 0.7252747252747253,
+      "roc_auc": 0.8970312500000001,
+      "true_positives": 33,
+      "true_negatives": 142,
+      "false_positives": 18,
+      "false_negatives": 7
+    },
+    {
+      "fold": 3,
+      "accuracy": 0.915,
+      "precision": 0.7555555555555555,
+      "recall": 0.85,
+      "f1_score": 0.7999999999999998,
+      "roc_auc": 0.91515625,
+      "true_positives": 34,
+      "true_negatives": 149,
+      "false_positives": 11,
+      "false_negatives": 6
+    },
+    {
+      "fold": 4,
+      "accuracy": 0.88,
+      "precision": 0.6666666666666666,
+      "recall": 0.8,
+      "f1_score": 0.7272727272727272,
+      "roc_auc": 0.9034374999999999,
+      "true_positives": 32,
+      "true_negatives": 144,
+      "false_positives": 16,
+      "false_negatives": 8
+    },
+    {
+      "fold": 5,
+      "accuracy": 0.9,
+      "precision": 0.6785714285714286,
+      "recall": 0.95,
+      "f1_score": 0.7916666666666667,
+      "roc_auc": 0.9653125,
+      "true_positives": 38,
+      "true_negatives": 142,
+      "false_positives": 18,
+      "false_negatives": 2
+    }
+  ]
+}

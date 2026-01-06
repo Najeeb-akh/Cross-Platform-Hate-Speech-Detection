@@ -1,0 +1,470 @@
+{
+  "reddit": {
+    "4chan": {
+      "training_dataset": "reddit",
+      "testing_dataset": "4chan",
+      "n_folds": 5,
+      "f1_mean": 0.7668675152008484,
+      "f1_std": 0.03332058128696401,
+      "accuracy_mean": 0.897,
+      "accuracy_std": 0.01691153452528778,
+      "precision_mean": 0.7056680558402222,
+      "precision_std": 0.05249216161067164,
+      "recall_mean": 0.8450000000000001,
+      "recall_std": 0.05567764362830019,
+      "roc_auc_mean": 0.9185312499999998,
+      "roc_auc_std": 0.02423368491119336,
+      "fold_metrics": [
+        {
+          "fold": 1,
+          "accuracy": 0.915,
+          "precision": 0.7804878048780488,
+          "recall": 0.8,
+          "f1_score": 0.7901234567901235,
+          "roc_auc": 0.9117187499999999,
+          "true_positives": 32,
+          "true_negatives": 151,
+          "false_positives": 9,
+          "false_negatives": 8
+        },
+        {
+          "fold": 2,
+          "accuracy": 0.875,
+          "precision": 0.6470588235294118,
+          "recall": 0.825,
+          "f1_score": 0.7252747252747253,
+          "roc_auc": 0.8970312500000001,
+          "true_positives": 33,
+          "true_negatives": 142,
+          "false_positives": 18,
+          "false_negatives": 7
+        },
+        {
+          "fold": 3,
+          "accuracy": 0.915,
+          "precision": 0.7555555555555555,
+          "recall": 0.85,
+          "f1_score": 0.7999999999999998,
+          "roc_auc": 0.91515625,
+          "true_positives": 34,
+          "true_negatives": 149,
+          "false_positives": 11,
+          "false_negatives": 6
+        },
+        {
+          "fold": 4,
+          "accuracy": 0.88,
+          "precision": 0.6666666666666666,
+          "recall": 0.8,
+          "f1_score": 0.7272727272727272,
+          "roc_auc": 0.9034374999999999,
+          "true_positives": 32,
+          "true_negatives": 144,
+          "false_positives": 16,
+          "false_negatives": 8
+        },
+        {
+          "fold": 5,
+          "accuracy": 0.9,
+          "precision": 0.6785714285714286,
+          "recall": 0.95,
+          "f1_score": 0.7916666666666667,
+          "roc_auc": 0.9653125,
+          "true_positives": 38,
+          "true_negatives": 142,
+          "false_positives": 18,
+          "false_negatives": 2
+        }
+      ]
+    },
+    "twitter": {
+      "training_dataset": "reddit",
+      "testing_dataset": "twitter",
+      "n_folds": 5,
+      "f1_mean": 0.7954664462902526,
+      "f1_std": 0.019497755599619436,
+      "accuracy_mean": 0.9020000000000001,
+      "accuracy_std": 0.012083045973594582,
+      "precision_mean": 0.6849090339526254,
+      "precision_std": 0.029571585103332663,
+      "recall_mean": 0.9499999999999998,
+      "recall_std": 0.015811388300841875,
+      "roc_auc_mean": 0.95446875,
+      "roc_auc_std": 0.020380798638056394,
+      "fold_metrics": [
+        {
+          "fold": 1,
+          "accuracy": 0.91,
+          "precision": 0.7037037037037037,
+          "recall": 0.95,
+          "f1_score": 0.8085106382978724,
+          "roc_auc": 0.9759375,
+          "true_positives": 38,
+          "true_negatives": 144,
+          "false_positives": 16,
+          "false_negatives": 2
+        },
+        {
+          "fold": 2,
+          "accuracy": 0.915,
+          "precision": 0.7169811320754716,
+          "recall": 0.95,
+          "f1_score": 0.8172043010752688,
+          "roc_auc": 0.9762500000000001,
+          "true_positives": 38,
+          "true_negatives": 145,
+          "false_positives": 15,
+          "false_negatives": 2
+        },
+        {
+          "fold": 3,
+          "accuracy": 0.88,
+          "precision": 0.6333333333333333,
+          "recall": 0.95,
+          "f1_score": 0.7599999999999999,
+          "roc_auc": 0.93640625,
+          "true_positives": 38,
+          "true_negatives": 138,
+          "false_positives": 22,
+          "false_negatives": 2
+        },
+        {
+          "fold": 4,
+          "accuracy": 0.905,
+          "precision": 0.6981132075471698,
+          "recall": 0.925,
+          "f1_score": 0.7956989247311829,
+          "roc_auc": 0.9260937499999999,
+          "true_positives": 37,
+          "true_negatives": 144,
+          "false_positives": 16,
+          "false_negatives": 3
+        },
+        {
+          "fold": 5,
+          "accuracy": 0.9,
+          "precision": 0.6724137931034483,
+          "recall": 0.975,
+          "f1_score": 0.7959183673469388,
+          "roc_auc": 0.95765625,
+          "true_positives": 39,
+          "true_negatives": 141,
+          "false_positives": 19,
+          "false_negatives": 1
+        }
+      ]
+    }
+  },
+  "4chan": {
+    "reddit": {
+      "training_dataset": "4chan",
+      "testing_dataset": "reddit",
+      "n_folds": 5,
+      "f1_mean": 0.6847770556569205,
+      "f1_std": 0.06551077173611936,
+      "accuracy_mean": 0.8640000000000001,
+      "accuracy_std": 0.02764054992217053,
+      "precision_mean": 0.6391214470284238,
+      "precision_std": 0.06289675330062756,
+      "recall_mean": 0.74,
+      "recall_std": 0.08154753215150043,
+      "roc_auc_mean": 0.9166875000000001,
+      "roc_auc_std": 0.03278859248084616,
+      "fold_metrics": [
+        {
+          "fold": 1,
+          "accuracy": 0.86,
+          "precision": 0.6111111111111112,
+          "recall": 0.825,
+          "f1_score": 0.7021276595744681,
+          "roc_auc": 0.9339062499999999,
+          "true_positives": 33,
+          "true_negatives": 139,
+          "false_positives": 21,
+          "false_negatives": 7
+        },
+        {
+          "fold": 2,
+          "accuracy": 0.835,
+          "precision": 0.5777777777777777,
+          "recall": 0.65,
+          "f1_score": 0.6117647058823529,
+          "roc_auc": 0.8584375,
+          "true_positives": 26,
+          "true_negatives": 141,
+          "false_positives": 19,
+          "false_negatives": 14
+        },
+        {
+          "fold": 3,
+          "accuracy": 0.845,
+          "precision": 0.6,
+          "recall": 0.675,
+          "f1_score": 0.6352941176470589,
+          "roc_auc": 0.92515625,
+          "true_positives": 27,
+          "true_negatives": 142,
+          "false_positives": 18,
+          "false_negatives": 13
+        },
+        {
+          "fold": 4,
+          "accuracy": 0.915,
+          "precision": 0.7555555555555555,
+          "recall": 0.85,
+          "f1_score": 0.7999999999999998,
+          "roc_auc": 0.95625,
+          "true_positives": 34,
+          "true_negatives": 149,
+          "false_positives": 11,
+          "false_negatives": 6
+        },
+        {
+          "fold": 5,
+          "accuracy": 0.865,
+          "precision": 0.6511627906976745,
+          "recall": 0.7,
+          "f1_score": 0.674698795180723,
+          "roc_auc": 0.9096875,
+          "true_positives": 28,
+          "true_negatives": 145,
+          "false_positives": 15,
+          "false_negatives": 12
+        }
+      ]
+    },
+    "twitter": {
+      "training_dataset": "4chan",
+      "testing_dataset": "twitter",
+      "n_folds": 5,
+      "f1_mean": 0.8161023809137198,
+      "f1_std": 0.024285157196942922,
+      "accuracy_mean": 0.914,
+      "accuracy_std": 0.013928388277184131,
+      "precision_mean": 0.716191858077721,
+      "precision_std": 0.03615782713301503,
+      "recall_mean": 0.95,
+      "recall_std": 0.015811388300841875,
+      "roc_auc_mean": 0.9736874999999999,
+      "roc_auc_std": 0.00707562386825363,
+      "fold_metrics": [
+        {
+          "fold": 1,
+          "accuracy": 0.925,
+          "precision": 0.7551020408163265,
+          "recall": 0.925,
+          "f1_score": 0.8314606741573034,
+          "roc_auc": 0.973125,
+          "true_positives": 37,
+          "true_negatives": 148,
+          "false_positives": 12,
+          "false_negatives": 3
+        },
+        {
+          "fold": 2,
+          "accuracy": 0.93,
+          "precision": 0.75,
+          "recall": 0.975,
+          "f1_score": 0.8478260869565216,
+          "roc_auc": 0.98703125,
+          "true_positives": 39,
+          "true_negatives": 147,
+          "false_positives": 13,
+          "false_negatives": 1
+        },
+        {
+          "fold": 3,
+          "accuracy": 0.89,
+          "precision": 0.6551724137931034,
+          "recall": 0.95,
+          "f1_score": 0.7755102040816326,
+          "roc_auc": 0.96734375,
+          "true_positives": 38,
+          "true_negatives": 140,
+          "false_positives": 20,
+          "false_negatives": 2
+        },
+        {
+          "fold": 4,
+          "accuracy": 0.915,
+          "precision": 0.7169811320754716,
+          "recall": 0.95,
+          "f1_score": 0.8172043010752688,
+          "roc_auc": 0.9728125000000001,
+          "true_positives": 38,
+          "true_negatives": 145,
+          "false_positives": 15,
+          "false_negatives": 2
+        },
+        {
+          "fold": 5,
+          "accuracy": 0.91,
+          "precision": 0.7037037037037037,
+          "recall": 0.95,
+          "f1_score": 0.8085106382978724,
+          "roc_auc": 0.9681249999999999,
+          "true_positives": 38,
+          "true_negatives": 144,
+          "false_positives": 16,
+          "false_negatives": 2
+        }
+      ]
+    }
+  },
+  "twitter": {
+    "reddit": {
+      "training_dataset": "twitter",
+      "testing_dataset": "reddit",
+      "n_folds": 5,
+      "f1_mean": 0.6780966724039014,
+      "f1_std": 0.07135595855941368,
+      "accuracy_mean": 0.8629999999999999,
+      "accuracy_std": 0.028913664589601946,
+      "precision_mean": 0.6407112654787073,
+      "precision_std": 0.06727142148342599,
+      "recall_mean": 0.725,
+      "recall_std": 0.09617692030835671,
+      "roc_auc_mean": 0.86509375,
+      "roc_auc_std": 0.05651228779544321,
+      "fold_metrics": [
+        {
+          "fold": 1,
+          "accuracy": 0.85,
+          "precision": 0.5892857142857143,
+          "recall": 0.825,
+          "f1_score": 0.6875000000000001,
+          "roc_auc": 0.8875,
+          "true_positives": 33,
+          "true_negatives": 137,
+          "false_positives": 23,
+          "false_negatives": 7
+        },
+        {
+          "fold": 2,
+          "accuracy": 0.84,
+          "precision": 0.6,
+          "recall": 0.6,
+          "f1_score": 0.6,
+          "roc_auc": 0.78390625,
+          "true_positives": 24,
+          "true_negatives": 144,
+          "false_positives": 16,
+          "false_negatives": 16
+        },
+        {
+          "fold": 3,
+          "accuracy": 0.855,
+          "precision": 0.627906976744186,
+          "recall": 0.675,
+          "f1_score": 0.6506024096385542,
+          "roc_auc": 0.8468749999999999,
+          "true_positives": 27,
+          "true_negatives": 144,
+          "false_positives": 16,
+          "false_negatives": 13
+        },
+        {
+          "fold": 4,
+          "accuracy": 0.92,
+          "precision": 0.7727272727272727,
+          "recall": 0.85,
+          "f1_score": 0.8095238095238095,
+          "roc_auc": 0.95640625,
+          "true_positives": 34,
+          "true_negatives": 150,
+          "false_positives": 10,
+          "false_negatives": 6
+        },
+        {
+          "fold": 5,
+          "accuracy": 0.85,
+          "precision": 0.6136363636363636,
+          "recall": 0.675,
+          "f1_score": 0.6428571428571429,
+          "roc_auc": 0.8507812499999999,
+          "true_positives": 27,
+          "true_negatives": 143,
+          "false_positives": 17,
+          "false_negatives": 13
+        }
+      ]
+    },
+    "4chan": {
+      "training_dataset": "twitter",
+      "testing_dataset": "4chan",
+      "n_folds": 5,
+      "f1_mean": 0.7729957293225532,
+      "f1_std": 0.02042474190723169,
+      "accuracy_mean": 0.9039999999999999,
+      "accuracy_std": 0.011575836902790236,
+      "precision_mean": 0.7394512955685858,
+      "precision_std": 0.05289901601759029,
+      "recall_mean": 0.8150000000000001,
+      "recall_std": 0.04358898943540673,
+      "roc_auc_mean": 0.9169375000000001,
+      "roc_auc_std": 0.017686119645784384,
+      "fold_metrics": [
+        {
+          "fold": 1,
+          "accuracy": 0.925,
+          "precision": 0.8378378378378378,
+          "recall": 0.775,
+          "f1_score": 0.8051948051948051,
+          "roc_auc": 0.93,
+          "true_positives": 31,
+          "true_negatives": 154,
+          "false_positives": 6,
+          "false_negatives": 9
+        },
+        {
+          "fold": 2,
+          "accuracy": 0.89,
+          "precision": 0.6956521739130435,
+          "recall": 0.8,
+          "f1_score": 0.7441860465116279,
+          "roc_auc": 0.89234375,
+          "true_positives": 32,
+          "true_negatives": 146,
+          "false_positives": 14,
+          "false_negatives": 8
+        },
+        {
+          "fold": 3,
+          "accuracy": 0.905,
+          "precision": 0.7441860465116279,
+          "recall": 0.8,
+          "f1_score": 0.7710843373493975,
+          "roc_auc": 0.8995312499999999,
+          "true_positives": 32,
+          "true_negatives": 149,
+          "false_positives": 11,
+          "false_negatives": 8
+        },
+        {
+          "fold": 4,
+          "accuracy": 0.9,
+          "precision": 0.7272727272727273,
+          "recall": 0.8,
+          "f1_score": 0.761904761904762,
+          "roc_auc": 0.9256249999999999,
+          "true_positives": 32,
+          "true_negatives": 148,
+          "false_positives": 12,
+          "false_negatives": 8
+        },
+        {
+          "fold": 5,
+          "accuracy": 0.9,
+          "precision": 0.6923076923076923,
+          "recall": 0.9,
+          "f1_score": 0.7826086956521738,
+          "roc_auc": 0.9371875,
+          "true_positives": 36,
+          "true_negatives": 144,
+          "false_positives": 16,
+          "false_negatives": 4
+        }
+      ]
+    }
+  }
+}

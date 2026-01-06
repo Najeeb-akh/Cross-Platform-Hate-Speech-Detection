@@ -1,0 +1,77 @@
+{
+  "training_dataset": "4chan",
+  "testing_dataset": "reddit",
+  "n_folds": 5,
+  "f1_mean": 0.6847770556569205,
+  "f1_std": 0.06551077173611936,
+  "accuracy_mean": 0.8640000000000001,
+  "accuracy_std": 0.02764054992217053,
+  "precision_mean": 0.6391214470284238,
+  "precision_std": 0.06289675330062756,
+  "recall_mean": 0.74,
+  "recall_std": 0.08154753215150043,
+  "roc_auc_mean": 0.9166875000000001,
+  "roc_auc_std": 0.03278859248084616,
+  "fold_metrics": [
+    {
+      "fold": 1,
+      "accuracy": 0.86,
+      "precision": 0.6111111111111112,
+      "recall": 0.825,
+      "f1_score": 0.7021276595744681,
+      "roc_auc": 0.9339062499999999,
+      "true_positives": 33,
+      "true_negatives": 139,
+      "false_positives": 21,
+      "false_negatives": 7
+    },
+    {
+      "fold": 2,
+      "accuracy": 0.835,
+      "precision": 0.5777777777777777,
+      "recall": 0.65,
+      "f1_score": 0.6117647058823529,
+      "roc_auc": 0.8584375,
+      "true_positives": 26,
+      "true_negatives": 141,
+      "false_positives": 19,
+      "false_negatives": 14
+    },
+    {
+      "fold": 3,
+      "accuracy": 0.845,
+      "precision": 0.6,
+      "recall": 0.675,
+      "f1_score": 0.6352941176470589,
+      "roc_auc": 0.92515625,
+      "true_positives": 27,
+      "true_negatives": 142,
+      "false_positives": 18,
+      "false_negatives": 13
+    },
+    {
+      "fold": 4,
+      "accuracy": 0.915,
+      "precision": 0.7555555555555555,
+      "recall": 0.85,
+      "f1_score": 0.7999999999999998,
+      "roc_auc": 0.95625,
+      "true_positives": 34,
+      "true_negatives": 149,
+      "false_positives": 11,
+      "false_negatives": 6
+    },
+    {
+      "fold": 5,
+      "accuracy": 0.865,
+      "precision": 0.6511627906976745,
+      "recall": 0.7,
+      "f1_score": 0.674698795180723,
+      "roc_auc": 0.9096875,
+      "true_positives": 28,
+      "true_negatives": 145,
+      "false_positives": 15,
+      "false_negatives": 12
+    }
+  ]
+}

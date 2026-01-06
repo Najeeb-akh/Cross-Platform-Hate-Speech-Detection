@@ -1,0 +1,42 @@
+# Core data science stack
+pandas==1.5.3
+numpy==1.24.3
+scikit-learn==1.3.0
+scipy==1.11.1
+xgboost>=2.0.0
+
+# Configuration and utilities
+pyyaml==6.0
+emoji==2.8.0
+tqdm==4.65.0
+
+# Visualization
+matplotlib==3.7.2
+seaborn==0.12.2
+
+# Imbalanced learning
+imbalanced-learn==0.11.0
+
+# Text processing
+textblob==0.17.1
+vaderSentiment==3.3.2
+
+# Word document manipulation
+python-docx==1.1.0
+
+# Dataset loading (for Kaggle/HuggingFace lexicons)
+datasets==2.14.0
+huggingface-hub==0.17.0
+requests>=2.28.0
+
+# Feature importance (optional)
+# shap==0.42.1  # Uncomment for SHAP analysis
+
+# Future transformer support (uncomment when needed)
+# torch==2.0.1
+transformers>=4.35.0
+spacy>=3.0.0
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0.tar.gz
+sentence-transformers>=2.2.0
+textstat>=0.7.0
+pyarrow==12.0.1

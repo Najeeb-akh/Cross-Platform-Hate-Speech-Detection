@@ -1,0 +1,76 @@
+{
+  "dataset": "4chan",
+  "n_folds": 5,
+  "f1_mean": 0.7874034617697511,
+  "f1_std": 0.020571209746576946,
+  "accuracy_mean": 0.9090000000000001,
+  "accuracy_std": 0.011575836902790236,
+  "precision_mean": 0.7451358927225732,
+  "precision_std": 0.05220509513446427,
+  "recall_mean": 0.8400000000000001,
+  "recall_std": 0.043588989435406754,
+  "roc_auc_mean": 0.9403125000000001,
+  "roc_auc_std": 0.0175186842221384,
+  "fold_metrics": [
+    {
+      "accuracy": 0.93,
+      "precision": 0.8421052631578947,
+      "recall": 0.8,
+      "f1_score": 0.8205128205128205,
+      "roc_auc": 0.94125,
+      "true_negatives": 154,
+      "false_positives": 6,
+      "false_negatives": 8,
+      "true_positives": 32,
+      "fold": 1
+    },
+    {
+      "accuracy": 0.895,
+      "precision": 0.7021276595744681,
+      "recall": 0.825,
+      "f1_score": 0.7586206896551724,
+      "roc_auc": 0.918125,
+      "true_negatives": 146,
+      "false_positives": 14,
+      "false_negatives": 7,
+      "true_positives": 33,
+      "fold": 2
+    },
+    {
+      "accuracy": 0.91,
+      "precision": 0.75,
+      "recall": 0.825,
+      "f1_score": 0.7857142857142856,
+      "roc_auc": 0.9275,
+      "true_negatives": 149,
+      "false_positives": 11,
+      "false_negatives": 7,
+      "true_positives": 33,
+      "fold": 3
+    },
+    {
+      "accuracy": 0.905,
+      "precision": 0.7333333333333333,
+      "recall": 0.825,
+      "f1_score": 0.776470588235294,
+      "roc_auc": 0.9451562499999999,
+      "true_negatives": 148,
+      "false_positives": 12,
+      "false_negatives": 7,
+      "true_positives": 33,
+      "fold": 4
+    },
+    {
+      "accuracy": 0.905,
+      "precision": 0.6981132075471698,
+      "recall": 0.925,
+      "f1_score": 0.7956989247311829,
+      "roc_auc": 0.9695312500000001,
+      "true_negatives": 144,
+      "false_positives": 16,
+      "false_negatives": 3,
+      "true_positives": 37,
+      "fold": 5
+    }
+  ]
+}

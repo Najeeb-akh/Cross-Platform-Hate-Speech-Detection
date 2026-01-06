@@ -1,0 +1,230 @@
+{
+  "reddit": {
+    "dataset": "reddit",
+    "n_folds": 5,
+    "f1_mean": 0.6904176833304452,
+    "f1_std": 0.07098621144643658,
+    "accuracy_mean": 0.867,
+    "accuracy_std": 0.028390139133156803,
+    "precision_mean": 0.6449975910517337,
+    "precision_std": 0.06312311486790989,
+    "recall_mean": 0.745,
+    "recall_std": 0.09,
+    "roc_auc_mean": 0.9272812500000001,
+    "roc_auc_std": 0.03463123251668932,
+    "fold_metrics": [
+      {
+        "accuracy": 0.865,
+        "precision": 0.6226415094339622,
+        "recall": 0.825,
+        "f1_score": 0.7096774193548386,
+        "roc_auc": 0.9456249999999999,
+        "true_negatives": 140,
+        "false_positives": 20,
+        "false_negatives": 7,
+        "true_positives": 33,
+        "fold": 1
+      },
+      {
+        "accuracy": 0.83,
+        "precision": 0.5714285714285714,
+        "recall": 0.6,
+        "f1_score": 0.5853658536585366,
+        "roc_auc": 0.87390625,
+        "true_negatives": 142,
+        "false_positives": 18,
+        "false_negatives": 16,
+        "true_positives": 24,
+        "fold": 2
+      },
+      {
+        "accuracy": 0.85,
+        "precision": 0.6086956521739131,
+        "recall": 0.7,
+        "f1_score": 0.6511627906976744,
+        "roc_auc": 0.9284375,
+        "true_negatives": 142,
+        "false_positives": 18,
+        "false_negatives": 12,
+        "true_positives": 28,
+        "fold": 3
+      },
+      {
+        "accuracy": 0.915,
+        "precision": 0.7555555555555555,
+        "recall": 0.85,
+        "f1_score": 0.7999999999999998,
+        "roc_auc": 0.97765625,
+        "true_negatives": 149,
+        "false_positives": 11,
+        "false_negatives": 6,
+        "true_positives": 34,
+        "fold": 4
+      },
+      {
+        "accuracy": 0.875,
+        "precision": 0.6666666666666666,
+        "recall": 0.75,
+        "f1_score": 0.7058823529411765,
+        "roc_auc": 0.91078125,
+        "true_negatives": 145,
+        "false_positives": 15,
+        "false_negatives": 10,
+        "true_positives": 30,
+        "fold": 5
+      }
+    ]
+  },
+  "4chan": {
+    "dataset": "4chan",
+    "n_folds": 5,
+    "f1_mean": 0.7874034617697511,
+    "f1_std": 0.020571209746576946,
+    "accuracy_mean": 0.9090000000000001,
+    "accuracy_std": 0.011575836902790236,
+    "precision_mean": 0.7451358927225732,
+    "precision_std": 0.05220509513446427,
+    "recall_mean": 0.8400000000000001,
+    "recall_std": 0.043588989435406754,
+    "roc_auc_mean": 0.9403125000000001,
+    "roc_auc_std": 0.0175186842221384,
+    "fold_metrics": [
+      {
+        "accuracy": 0.93,
+        "precision": 0.8421052631578947,
+        "recall": 0.8,
+        "f1_score": 0.8205128205128205,
+        "roc_auc": 0.94125,
+        "true_negatives": 154,
+        "false_positives": 6,
+        "false_negatives": 8,
+        "true_positives": 32,
+        "fold": 1
+      },
+      {
+        "accuracy": 0.895,
+        "precision": 0.7021276595744681,
+        "recall": 0.825,
+        "f1_score": 0.7586206896551724,
+        "roc_auc": 0.918125,
+        "true_negatives": 146,
+        "false_positives": 14,
+        "false_negatives": 7,
+        "true_positives": 33,
+        "fold": 2
+      },
+      {
+        "accuracy": 0.91,
+        "precision": 0.75,
+        "recall": 0.825,
+        "f1_score": 0.7857142857142856,
+        "roc_auc": 0.9275,
+        "true_negatives": 149,
+        "false_positives": 11,
+        "false_negatives": 7,
+        "true_positives": 33,
+        "fold": 3
+      },
+      {
+        "accuracy": 0.905,
+        "precision": 0.7333333333333333,
+        "recall": 0.825,
+        "f1_score": 0.776470588235294,
+        "roc_auc": 0.9451562499999999,
+        "true_negatives": 148,
+        "false_positives": 12,
+        "false_negatives": 7,
+        "true_positives": 33,
+        "fold": 4
+      },
+      {
+        "accuracy": 0.905,
+        "precision": 0.6981132075471698,
+        "recall": 0.925,
+        "f1_score": 0.7956989247311829,
+        "roc_auc": 0.9695312500000001,
+        "true_negatives": 144,
+        "false_positives": 16,
+        "false_negatives": 3,
+        "true_positives": 37,
+        "fold": 5
+      }
+    ]
+  },
+  "twitter": {
+    "dataset": "twitter",
+    "n_folds": 5,
+    "f1_mean": 0.8406045865424925,
+    "f1_std": 0.02073548025675792,
+    "accuracy_mean": 0.9269999999999999,
+    "accuracy_std": 0.010770329614268992,
+    "precision_mean": 0.7479966277109135,
+    "precision_std": 0.0284389611118434,
+    "recall_mean": 0.96,
+    "recall_std": 0.012247448713915901,
+    "roc_auc_mean": 0.98009375,
+    "roc_auc_std": 0.006749999999999961,
+    "fold_metrics": [
+      {
+        "accuracy": 0.935,
+        "precision": 0.7755102040816326,
+        "recall": 0.95,
+        "f1_score": 0.8539325842696629,
+        "roc_auc": 0.9803124999999999,
+        "true_negatives": 149,
+        "false_positives": 11,
+        "false_negatives": 2,
+        "true_positives": 38,
+        "fold": 1
+      },
+      {
+        "accuracy": 0.94,
+        "precision": 0.78,
+        "recall": 0.975,
+        "f1_score": 0.8666666666666667,
+        "roc_auc": 0.9903124999999999,
+        "true_negatives": 149,
+        "false_positives": 11,
+        "false_negatives": 1,
+        "true_positives": 39,
+        "fold": 2
+      },
+      {
+        "accuracy": 0.91,
+        "precision": 0.7037037037037037,
+        "recall": 0.95,
+        "f1_score": 0.8085106382978724,
+        "roc_auc": 0.9690625,
+        "true_negatives": 144,
+        "false_positives": 16,
+        "false_negatives": 2,
+        "true_positives": 38,
+        "fold": 3
+      },
+      {
+        "accuracy": 0.92,
+        "precision": 0.7307692307692307,
+        "recall": 0.95,
+        "f1_score": 0.8260869565217392,
+        "roc_auc": 0.97953125,
+        "true_negatives": 146,
+        "false_positives": 14,
+        "false_negatives": 2,
+        "true_positives": 38,
+        "fold": 4
+      },
+      {
+        "accuracy": 0.93,
+        "precision": 0.75,
+        "recall": 0.975,
+        "f1_score": 0.8478260869565216,
+        "roc_auc": 0.98125,
+        "true_negatives": 147,
+        "false_positives": 13,
+        "false_negatives": 1,
+        "true_positives": 39,
+        "fold": 5
+      }
+    ]
+  }
+}
